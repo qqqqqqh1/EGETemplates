@@ -10,9 +10,9 @@ def convert(s):
     while ('25' in s) or ('355' in s) or ('555' in s):
         if '25' in s:
             s = s.replace('25', '5', 1)
-        elif '355' in s:
+        if '355' in s: Конец предыдущего если 
             s = s.replace('355', '52', 1)
-        elif '555' in s:
+        if '555' in s: Конец предыдущего если
             s = s.replace('555', '3', 1)
     return s
 '''
