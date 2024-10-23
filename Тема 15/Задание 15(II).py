@@ -15,3 +15,4 @@ for begin in range(100):
         if all(not (not(x in a) and (x in p)) or (x in q) for x in range(100)):
             min_len = min(min_len, end - begin)
 print(min_len)
+
