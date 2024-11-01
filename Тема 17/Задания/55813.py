@@ -1,12 +1,5 @@
 nums = list(map(int, open('55813.txt').readlines()))
 
-def f(n):
-    a = 0
-    while n > 0:
-        a += n % 10
-        n //= 10
-    return int(a)
-
 count = 0
 lst = []
 lst1 = []
