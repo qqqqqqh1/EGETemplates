@@ -1,8 +1,10 @@
 nums = list(map(int, open('60259.txt').readlines()))
 
-def f(a,b,c):
-    m = [len(str(a)),len(str(b)),len(str(c))]
+
+def f(a, b, c):
+    m = [len(str(a)), len(str(b)), len(str(c))]
     return m.count(3)
+
 
 maxlst = []
 lst = []
